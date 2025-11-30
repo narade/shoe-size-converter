@@ -1,0 +1,13 @@
+body {font-family: Arial, sans-serif; background:#f4f4f4; color:#333; margin:0; padding:0;}
+header {background:#0073e6; color:white; padding:20px 0; text-align:center;}
+h1 {margin:0; font-size:1.8em;}
+main {padding:20px; max-width:600px; margin:auto;}
+select,input,button {padding:10px; margin:5px 0; width:100%; box-sizing:border-box; font-size:1em;}
+table {width:100%; margin-top:20px; border-collapse:collapse;}
+th,td {border:1px solid #ccc; padding:8px; text-align:center;}
+th {background:#eee;}
+footer {text-align:center; padding:15px; font-size:0.9em; color:#666;}
+button.copy-btn {margin-top:10px; background:#0073e6; color:white; border:none; cursor:pointer;}
+button.copy-btn:hover {background:#005bb5;}
+.ad-placeholder {background:#ddd; padding:10px; margin-bottom:20px;}
+@media (max-width:600px){table, th, td {font-size:0.9em;}}

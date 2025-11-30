@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Convert shoe sizes easily between US, EU, UK, and JP for men, women, and kids. Fast and accurate online shoe size converter.">
+<meta name="keywords" content="shoe size converter, US EU UK JP, men shoe size, women shoe size, kids shoe size">
+<title>Shoe Size Converter Online</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Shoe Size Converter</h1>
+  <p>Convert US, EU, UK, JP shoe sizes for men, women, and kids</p>
+</header>
+<main>
+  <div class="ad-placeholder">AdSense Ad Here</div>
+
+  <label for="category">Select Category:</label>
+  <select id="category">
+    <option value="men">Men</option>
+    <option value="women">Women</option>
+    <option value="kids">Kids</option>
+  </select>
+  
+  <label for="inputSize">Enter US Size:</label>
+  <input type="number" id="inputSize" placeholder="Example: 9" step="0.5" min="0">
+  
+  <button onclick="convertSize()">Convert</button>
+  
+  <table id="resultTable" style="display:none;">
+    <thead>
+      <tr><th>US</th><th>EU</th><th>UK</th><th>JP</th></tr>
+    </thead>
+    <tbody id="resultBody"></tbody>
+  </table>
+  
+  <button class="copy-btn" onclick="copyResult()" style="display:none;" id="copyBtn">Copy Result</button>
+</main>
+
+<footer>
+  &copy; 2025 ShoeSizeConverter.com | Free Online Tool
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
